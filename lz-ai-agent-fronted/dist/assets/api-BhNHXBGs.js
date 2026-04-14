@@ -1,0 +1,1 @@
+var e=`http://localhost:8123/api`;function t(t,n){return new EventSource(`${e}/ai/love_app/chat/sse?message=${encodeURIComponent(t)}&chatId=${n}`)}function n(t,n){return new EventSource(`${e}/ai/manus/chat?message=${encodeURIComponent(t)}&chatId=${n}`)}export{n,t};
